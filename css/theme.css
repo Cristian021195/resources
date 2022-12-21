@@ -1,0 +1,5 @@
+/* THEME CUSTOM DARK */
+[data-theme='dark'] body, [data-theme='dark'] main{ background-color: #181818; }
+
+/* THEME CUSTOM LIGHT */
+[data-theme='light'] body, [data-theme='light'] main{ background-color: whitesmoke; }

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light" class="html_tag" style="color-scheme: light;">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Common Resources</title>
+
+    <link rel="stylesheet" href="./css/colors.css">
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/theme.css">
+    <link rel="stylesheet" href="./css/class-colors.css">
+</head>
+<style>
+    *{margin: 0; padding: 0; box-sizing: border-box;}
+    body{font-family: sans-serif; background-color: whitesmoke;}
+    .h-scroll-style::-webkit-scrollbar, .v-scroll-style::-webkit-scrollbar {width: 7px;height: 7px;}
+    .h-scroll-style::-webkit-scrollbar-thumb{background: rgba(255, 255, 255, 0.3);border-radius: 50px;}
+    .h-scroll-style::-webkit-scrollbar-track{background: rgba(0, 0, 0, 0);border-radius: 31px;}
+    header{background-color: dodgerblue;width: 100%;height: 4em;position: sticky;top: 0;}
+    .d-flex{display: flex;}
+    .justify-content-end{justify-content: end;}
+    .justify-content-center{justify-content: center;}
+    .justify-content-between{justify-content: space-between;}
+    .justify-content-start{justify-content: start;}
+    .align-items-center{align-items: center;}
+    header ul li a{text-decoration: none;color: whitesmoke;}
+    header ul li{list-style: none;font-size: 1.2em;}
+    header ul{width: 34em;display: flex;justify-content: space-evenly;align-items: center;}
+    header a, h1 {font-family: 'Bebas Neue', sans-serif;}
+    main{margin:0 auto; padding: 2em;}
+    section ul{margin-left: 4em;}
+    .btn{border-radius: 0.3em; font-weight: bold;}
+    section ul li {list-style: none; margin: 2em;}
+    section ul li a{text-decoration: none;}
+</style>
+<body>
+    <header class='d-flex justify-content-end align-items-center'>
+        <ul class='h-scroll-style'>
+          <li><a href="#inicio">inicio</a></li>
+          <li><a href="#sobre-mi">sobre mi</a></li>
+          <li><a href="#conocimientos">conocimientos</a></li>
+          <li><a href="#extras">extras</a></li>
+          <li><a href="#proyectos">proyectos</a></li>
+          <li><a href="#contacto">contacto</a></li>
+        </ul>
+    </header>
+    <main class="col-8">
+        <section>
+            <h1>Common Resources</h1>
+            <p>This is a list of the links for the common resources for simple projects</p>
+            <hr>
+        </section>
+        <section>
+            <article>
+                <ul>
+                    <li>
+                        <a href="./css/colors.css" class="btn p-2 text-grey-1 bg-blue-3" target="_blank">colores</a>&emsp;
+                        <a href="./css/colors.css" download>Descargar</a>
+                    </li>
+                    <li>
+                        <a href="./css/layout.css" class="btn p-2 text-grey-1 bg-red-3" target="_blank">layout</a>&emsp;
+                        <a href="./css/layout.css" download>Descargar</a>
+                    </li>
+                    <li>
+                        <a href="./css/theme.css" class="btn p-2 text-grey-1 bg-cyan-3" target="_blank">theme</a>&emsp;
+                        <a href="./css/theme.css" download>Descargar</a>
+                    </li>
+                </ul>
+            </article>
+        </section>
+        
+    </main>
+</body>
+</html>
