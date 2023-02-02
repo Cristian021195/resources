@@ -1,55 +1,62 @@
 /*  xxs: 320px,  sm: 576px,  md: 768px,  lg: 992px,  xl: 1200px,  xxl: 1400px */
-/*tamaños*/
+/* horizontal */
 @media only screen and (max-width: 319px){
-    main{
+    body, main{
         background-color: lightblue;
     }
 }
 
-@media only screen and (min-width: 320px){
-    main{
+@media only screen and (min-width: 320px) and (max-width: 575px){
+    body, main{
         background-color: orange;
     }
+
 }
 
-@media only screen and (min-width: 576px) {
-    main{
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    body, main{
         background-color: red;
     }
 }
 
-@media only screen and (min-width: 768px) {
-    main{
-        background-color: dodgerblue;
-    }
-}
-
-@media only screen and (min-width: 992px) {
-    main{
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    body, main{
         background-color: green;
     }
 }
 
-@media only screen and (min-width: 1200px) {
-    main{
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    body, main{
         background-color: yellow;
     }
 }
 
-@media only screen and (min-width: 1400px) {
-    main{
+@media only screen and (min-width: 1200px) and (max-width: 1399px){
+    body, main{
         background-color: purple;
     }
 }
 
-/*orientacion*/
+@media only screen and (min-width: 1400px) and (max-width: 1919px){
+    body, main{
+        background-color: chartreuse;
+    }
+}
+
+@media only screen and (min-width: 1920px){
+    body, main{
+        background-color: lightpink;
+    }
+}
+
+/* orientation */
 @media only screen and (orientation: landscape) {
-    body {
+    body, main {
       background-color: orange;
     }
 }
 @media only screen and (orientation: portrait) {
-    body {
+    body, main {
       background-color: darkseagreen;
     }
 }
