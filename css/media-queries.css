@@ -1,5 +1,5 @@
 /*  xxs: 320px,  sm: 576px,  md: 768px,  lg: 992px,  xl: 1200px,  xxl: 1400px */
-/* horizontal */
+/* horizontal: especificos*/
 @media only screen and (max-width: 319px){
     body, main{
         background-color: lightblue;
@@ -48,6 +48,12 @@
         background-color: lightpink;
     }
 }
+
+/* horizontal: shared / compartidos /breakpoint*/
+/*small sizes*/
+@media only screen and (max-width: 767px) {}
+/*big sizes*/
+@media only screen and (min-width: 768px) {}    
 
 /* orientation */
 @media only screen and (orientation: landscape) {
