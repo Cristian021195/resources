@@ -49,7 +49,7 @@
     <main class="col-8">
         <section>
             <h1>Common Resources</h1>
-            <p>This is a list of the links for the common resources for simple projects</p>
+            <p>This is a list of the links for the common resources for simple projects. <b>User Agent: </b><span id="ua"></span> <b>UAgent Object: </b><span id="uao"></span></p>
             <hr>
         </section>
         <section>
@@ -110,8 +110,11 @@
                     <a href="https://cristian021195.github.io/portfolio" target="_blank" class="btn p-2 text-grey-1 bg-red-2">My Components</a>
                 </li>
             </ul>            
-        </section>
-        
+        </section>        
     </main>
+    <script>
+        document.getElementById('ua').textContent = window.navigator.userAgent;
+        document.getElementById('uao').textContent = JSON.stringify(window.navigator.userAgentData || [], null, 2);
+    </script>
 </body>
 </html>
